@@ -17,10 +17,9 @@ int binsearch(int x, int v[], int n)
   }
 int main(){
   /* binsearch: find x in v[0] <= v[1] <= ... <= v[n-1] */
-  
-
   int x = 7;
   int a[] = {1,2,3,4,5,6,7,8,9,10};
   int k = binsearch(7,a,10);
   printf("%d",k);
+  printf("Hello world");
 }
